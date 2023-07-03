@@ -1,0 +1,26 @@
+create database sistema_cadastro;
+use sistema_cadastro;
+
+create table usuario
+(
+nomeCompleto varchar(100) not null,
+dataNascimento date not null,
+cpf varchar(11) not null unique,
+rg char(15) not null unique,
+genero enum('masculino', 'feminino', 'transgênero', 'gênero neutro', 'não binário' ) not null,
+email varchar(100) not null unique,
+endereco varchar(50) not null,
+numero varchar(30) not null,
+cep char(10) not null,
+bairro varchar(50) not null,
+cidade varchar(50) not null,
+estado varchar(20) not null,
+complemento varchar(50),
+nomePai varchar(100) not null,
+nomeMae varchar(100) not null,
+telefone char(11) not null unique,
+primary key(cpf)
+);
+
+select * from usuario;
+drop table usuario;
