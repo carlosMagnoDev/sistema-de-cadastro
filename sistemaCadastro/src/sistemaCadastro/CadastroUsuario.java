@@ -15,8 +15,8 @@ public class CadastroUsuario {
 	
 	public void conectar() {
 		String servidor = "jdbc:mysql://localhost:3306/sistema_cadastro?useSSL=false";
-		String usuario = "root";
-		String senha = "senha";
+		String usuario = "seu_usuario";
+		String senha = "sua_senha";
 		String driver = "com.mysql.cj.jdbc.Driver";
 		
 		try {
