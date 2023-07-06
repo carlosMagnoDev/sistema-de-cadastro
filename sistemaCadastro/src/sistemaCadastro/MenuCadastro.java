@@ -415,7 +415,7 @@ public class MenuCadastro {
 							}
 						}
 						
-						List<String> camposValidos = Arrays.asList("nome", "nome Completo", "data de nascimento",
+						List<String> camposValidos = Arrays.asList("nome", "nome completo", "data de nascimento",
 								"rg", "gênero", "genero", "email", "e-mail", "endereço", "numero", "casa", "cep", 
 								"bairro", "cidade", "estado", "complemento", "nome do pai", "nome da mae",
 								"nome da mãe", "telefone", "contato" );
